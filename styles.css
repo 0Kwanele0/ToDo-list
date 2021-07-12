@@ -27,7 +27,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     background-color: #4e1e75;
-    padding: 20px 50px;
+    padding: 20px 0px;
+    margin: 12px;
     border-radius: 26px;
     box-shadow: 0 0 12px 12px #19022e;
     padding: 0 64px 35px 64px;
@@ -99,4 +100,26 @@ small {
 ol .done {
     text-decoration: line-through;
     background-color: #b874f018;
+}
+
+@media screen and (max-width:600px) {
+    .btn {
+        font-size: 13px;
+        padding:12px  10px ;
+    }
+    .main-container {
+        max-width: 100vw;
+        padding: 12px 7%;
+    }
+    .input-div input{
+        font-size: 1rem;
+        padding:  10px ;
+    }
+    .small {
+        justify-content: space-between;
+        padding: 20PX 0;
+    }
+    small {
+        font-size: 11px;
+    }
 }
